@@ -2,9 +2,6 @@
 - name: Software installation
   hosts: all
   tasks:
-      - name: install nginx
-        apt: name=nginx state=latest
-      - name: start nginx service
-        service:
-            name: nginx
-            state: started
+      - name: install python3-pip
+        apt: name=python3-pip state=latest
+
