@@ -2,6 +2,6 @@
 - name: Software installation
   hosts: all
   tasks:
-      - name: install python3-pip
-        apt: name=python3-pip state=latest
+      - name: install git
+        apt: name=git state=latest
 
